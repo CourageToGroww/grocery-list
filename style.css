@@ -1,0 +1,129 @@
+body{
+    background-image:url(https://4.bp.blogspot.com/-tRopCPSe4h4/TydMn-jaXdI/AAAAAAAAAQ4/IQW4Ftb-PHo/s1600/Notebook%2BPaper%2B2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* THIS IS ONLY FOR REQUIREMENT 5 will come back
+and change this as I go through FSA
+
+.mainh{
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Amatic SC', bold;
+        font-size: 60px;
+        color: gray;
+}
+*/
+.pi, .fi{
+    text-align: center;
+    font-family: 'Amatic SC';
+    color: gray;
+    border: 10px double black;
+    font-size: 50px;
+}
+
+.pi{
+    top: 100px;
+    margin-left: 16%;
+
+}
+
+.fi{
+    bottom: 100px;
+    margin-left: 16%;
+}
+
+.pi1, .pi2, .fi1, .fi2{
+
+    position: absolute;
+    font-family: 'Amatic SC';
+    font-size: x-large;
+    color: gray;
+    height: 300px;
+    width: 300px;
+}
+
+.pi1, .fi1{
+left : 300px;
+}
+
+.pi2, .fi2{
+    position: relative;
+    left: 900px;
+    padding-bottom: 100px;
+}
+
+.snacks, .vegs, .dry, .canned{
+    display: inline-block;
+    position: relative;
+    color: gray;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.canned, .vegs{
+left: 10px;
+bottom: -45px;
+}
+
+.dry, .snacks{
+left: 10px;
+bottom: -45px;
+}
+
+
+.hlc,.hld, .hlv, .hls{
+    background-image: linear-gradient(90deg, rgba(20, 255, 20, 0.8) 10%, rgba(20, 255, 20, 0.3) 70%);
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 40px;
+}
+
+
+
+.imgpencil{
+    position: absolute;
+    width: 600px;
+    top: 850px;
+    left: 1200px;
+    padding-left: 50px;
+}
+
+.imgbroccoli{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 900px;
+    left: 600px;
+}
+
+.imgbroccoli:hover {
+    filter: brightness(2) saturate(70%) hue-rotate(180deg); 
+    transition: filter 0.8s;
+}
+
+.imghler{
+    position:absolute;
+    width: 700px;
+    height: 700px;
+    top: -60px;
+    padding: 10px;
+    margin-left: 400px;
+    padding-bottom: 100px;
+}
+
+.imgdoodle{
+    position: absolute;
+    top: 365px;
+    right: 30px;
+    width: 300px;
+    height: 300px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+
